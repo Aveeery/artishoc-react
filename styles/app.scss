@@ -1,0 +1,13 @@
+@import './base';
+
+//Components
+@import './components/layout/header';
+@import './components/list';
+@import './components/previews/agenda';
+@import './components/previews/document';
+
+.main__container {
+  width: 1280px;
+  margin: auto;
+  padding: 40px;
+}

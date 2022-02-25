@@ -1,0 +1,40 @@
+export interface Content {
+    type: string;
+    id: string;
+    sti_type: string;
+    body: string;
+    title: string;
+    subtitle: string;
+    summary: string;
+    slug: string;
+    status: "published" | "unpublished";
+    published_at?: string;
+    project: {};
+    content_field: {};
+    external_links: any[];
+    spacetimes: any[];
+    videos: any[];
+    rewrites:  any[];
+    appendices: any[];
+    parent_appendices: any[];
+    folders: any[];
+    parent_folders: any[];
+    press_reviews: any[];
+    parent_press_reviews: any[];
+    people: any[];
+    parent_people: any[];
+    related_documents: any[];
+    parent_related_documents: any[];
+    section_tags: any[];
+    list_image?: any[];
+    images: any[];
+    files: any[];
+    canonical_section: any[];
+    tags?: any[];
+    main_image?: null;
+    background_image: null;
+    canonical_rewrites: any[];
+    relationshipNames: any[];
+    undestroyable: boolean;
+    updated_at: string
+}
